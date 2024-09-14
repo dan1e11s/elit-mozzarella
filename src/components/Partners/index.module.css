@@ -1,0 +1,26 @@
+.partners {
+  overflow: hidden;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.partnersList {
+  display: flex;
+  width: max-content;
+  animation: moveLeft 30s linear infinite;
+}
+
+.partnersList img {
+  margin-right: 50px;
+  height: 120px;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

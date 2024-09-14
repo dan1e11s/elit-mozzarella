@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url(../../assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerInfo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.headerInfo h1 {
+  font-size: 86px;
+}
+
+@media all and (max-width: 1024px) {
+  .headerInfo h1 {
+    font-size: 64px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .headerInfo h1 {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .headerInfo h1 {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,30 @@
+.aboutUs {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.aboutUs h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.btn a {
+  margin-top: 50px;
+  border: 1px solid #000;
+  padding: 10px 50px;
+}
+
+.contactButton {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: rgba(5, 53, 39, 0.6);
+  color: #fff;
+}

@@ -1,0 +1,88 @@
+/* Основной стиль навбара */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* Стили навигации для десктопа */
+.navList {
+  display: flex;
+  gap: 20px;
+}
+
+.navItem {
+  list-style: none;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.navItem a {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  background-color: rgba(5, 53, 39, 0.4);
+  color: #fff;
+}
+
+/* Бургер-меню */
+.burgerIcon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.burgerIcon span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  transition: 0.3s;
+}
+
+/* Модальное окно */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #fff;
+  width: 80%;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modalNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Медиа-запрос для скрытия навигации на мобильных устройствах */
+@media (max-width: 1024px) {
+  .navList {
+    display: none;
+  }
+
+  .burgerIcon {
+    display: flex;
+  }
+}
