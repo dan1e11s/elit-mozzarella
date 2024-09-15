@@ -6,44 +6,51 @@ import 'swiper/css/navigation';
 import Container from '../Container/Container';
 
 import mozzarella from '../../assets/mozzarella.jpeg';
+import mozzarella1 from '../../assets/mozzarella-1.jpg';
+import mozzarella2 from '../../assets/mozzarella-2.jpg';
 import mozzarellDr from '../../assets/mozzarella-dr.jpg';
 import mozzarellDr1 from '../../assets/mozzarella-dr-1.jpg';
 import mozzarellDr2 from '../../assets/mozzarella-dr-2.jpg';
 import mozzarellDr3 from '../../assets/mozzarella-dr-3.jpg';
 import kashar from '../../assets/kashar.jpeg';
+import kashar1 from '../../assets/kashar-1.webp';
+import saryMay from '../../assets/sary-may.jpg';
+import saryMay1 from '../../assets/sary-may-1.jpg';
+import slivochnoe from '../../assets/slivochnoe.jpg';
+import slivochnoe1 from '../../assets/slivochnoe-1.jpg';
 
 import styles from './index.module.css';
 
 const data = [
   {
     id: 1,
-    title: 'Сыр Моцарелла целый',
+    title: 'Сыр Моцарелла дробленный',
     price: '600 сомов за 1кг',
-    images: [mozzarella, mozzarella],
+    images: [mozzarellDr, mozzarellDr1, mozzarellDr2, mozzarellDr3],
   },
   {
     id: 2,
-    title: 'Сыр Моцарелла дробленный',
-    price: '600 сомов за упаковку',
-    images: [mozzarellDr, mozzarellDr1, mozzarellDr2, mozzarellDr3],
+    title: 'Сыр Моцарелла целый',
+    price: '600 сомов за 1кг',
+    images: [mozzarella, mozzarella1, mozzarella2],
   },
   {
     id: 3,
     title: 'Сыр Кашар',
-    price: '600 сомов за 1кг',
-    images: [kashar, kashar],
+    price: '550 сомов за 1кг',
+    images: [kashar, kashar1],
   },
   {
     id: 4,
-    title: 'Сливочное масло 82%',
-    price: '600 сомов за 1кг',
-    images: [mozzarella, mozzarella],
+    title: 'Сары май не менее 99%',
+    price: '850 сомов за 1кг',
+    images: [saryMay, saryMay1],
   },
   {
     id: 5,
-    title: 'Сары май +90%',
-    price: '600 сомов за 1кг',
-    images: [mozzarellDr, mozzarellDr],
+    title: 'Сливочное масло не менее 82%',
+    price: '800 сомов за 1кг',
+    images: [slivochnoe, slivochnoe1],
   },
 ];
 

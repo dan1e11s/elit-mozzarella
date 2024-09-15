@@ -17,10 +17,6 @@ const Footer = () => {
           <div className={styles.contacts}>
             <h2>Контакты</h2>
             <div className={styles.contact}>
-              <img src={phone} alt="Phone" />
-              <a href="tel:+996997771111">+996 997 77 11 11</a>
-            </div>
-            <div className={styles.contact}>
               <img src={instagram} alt="Instagram" />
               <a
                 href="https://www.instagram.com/elit_mozzarella/"
@@ -28,6 +24,14 @@ const Footer = () => {
               >
                 Instagram
               </a>
+            </div>
+            <div className={styles.contact}>
+              <img src={phone} alt="Phone" />
+              <a href="tel:+996997771111">+996 997 77 11 11</a>
+            </div>
+            <div className={styles.contact}>
+              <img src={phone} alt="Phone" />
+              <a href="tel:+996997881111">+996 997 88 11 11</a>
             </div>
             <div className={styles.contact}>
               <p>Кыргызская Республика, г.Токмок, промзона</p>
