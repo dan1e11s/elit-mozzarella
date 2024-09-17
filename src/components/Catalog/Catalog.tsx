@@ -9,8 +9,7 @@ import mozzarella from '../../assets/mozzarella-1.jpg';
 import mozzarella1 from '../../assets/mozzarella.jpg';
 import mozzarellaDr from '../../assets/mozzarella-dr.jpg';
 import mozzarellaDr1 from '../../assets/mozzarella-dr-2.jpg';
-import kashar from '../../assets/kashar.jpeg';
-import kashar1 from '../../assets/kashar-1.webp';
+import kashar from '../../assets/kashar.jpg';
 import saryMay from '../../assets/sary-may.jpg';
 import saryMay1 from '../../assets/sary-may-1.jpg';
 import slivochnoe from '../../assets/slivochnoe.jpg';
@@ -35,7 +34,7 @@ const data = [
     id: 3,
     title: 'Сыр Кашар',
     price: '550 сомов за 1кг',
-    images: [kashar, kashar1],
+    images: [kashar],
   },
   {
     id: 4,
