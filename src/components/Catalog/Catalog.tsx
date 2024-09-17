@@ -5,13 +5,10 @@ import 'swiper/css/navigation';
 
 import Container from '../Container/Container';
 
-import mozzarella from '../../assets/mozzarella.jpeg';
-import mozzarella1 from '../../assets/mozzarella-1.jpg';
-import mozzarella2 from '../../assets/mozzarella-2.jpg';
-import mozzarellDr from '../../assets/mozzarella-dr.jpg';
-import mozzarellDr1 from '../../assets/mozzarella-dr-1.jpg';
-import mozzarellDr2 from '../../assets/mozzarella-dr-2.jpg';
-import mozzarellDr3 from '../../assets/mozzarella-dr-3.jpg';
+import mozzarella from '../../assets/mozzarella-1.jpg';
+import mozzarella1 from '../../assets/mozzarella.jpg';
+import mozzarellaDr from '../../assets/mozzarella-dr.jpg';
+import mozzarellaDr1 from '../../assets/mozzarella-dr-2.jpg';
 import kashar from '../../assets/kashar.jpeg';
 import kashar1 from '../../assets/kashar-1.webp';
 import saryMay from '../../assets/sary-may.jpg';
@@ -26,13 +23,13 @@ const data = [
     id: 1,
     title: 'Сыр Моцарелла дробленный',
     price: '600 сомов за 1кг',
-    images: [mozzarellDr, mozzarellDr1, mozzarellDr2, mozzarellDr3],
+    images: [mozzarellaDr, mozzarellaDr1],
   },
   {
     id: 2,
     title: 'Сыр Моцарелла целый',
     price: '600 сомов за 1кг',
-    images: [mozzarella, mozzarella1, mozzarella2],
+    images: [mozzarella, mozzarella1],
   },
   {
     id: 3,
