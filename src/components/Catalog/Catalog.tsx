@@ -21,31 +21,26 @@ const data = [
   {
     id: 1,
     title: 'Сыр Моцарелла дробленный',
-    price: '600 сомов за 1кг',
     images: [mozzarellaDr, mozzarellaDr1],
   },
   {
     id: 2,
     title: 'Сыр Моцарелла целый',
-    price: '600 сомов за 1кг',
     images: [mozzarella, mozzarella1],
   },
   {
     id: 3,
     title: 'Сыр Кашар',
-    price: '550 сомов за 1кг',
     images: [kashar],
   },
   {
     id: 4,
     title: 'Сары май не менее 99%',
-    price: '850 сомов за 1кг',
     images: [saryMay, saryMay1],
   },
   {
     id: 5,
     title: 'Сливочное масло не менее 82%',
-    price: '800 сомов за 1кг',
     images: [slivochnoe, slivochnoe1],
   },
 ];
@@ -85,7 +80,6 @@ const Catalog = () => {
                 </Swiper>
                 <div className={styles.cardInfo}>
                   <h3>{item.title}</h3>
-                  <p>{item.price}</p>
                 </div>
               </div>
             ))}
